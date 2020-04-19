@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="styletut.css">
+	<link rel="shortcut icon" type="image/png" href="icon2.png">
+	<title>Туториал</title>
+</head>
+<body>
+<nav class="one">
+  <ul>
+    <li><a href="index.html"><img src="home.png" height="16" width="16"></a></li>
+    <li><a href="language.html">Язык вращений</a></li>
+    <li><a href="tutorial.html">Туториал</a></li>
+    <li><a href="patterns.html">Узоры</a></li>
+  </ul>
+</nav>
+<div class="back">
+  <div class="content">
+    <div class="txxt">
+      <h3>Сборка правильного креста</h3>
+      <p>Итак, первый этап сборки кубика Рубика - сборка правильного креста на любой из сторон, для удобства мы будем собирать его на белой. Крест является правильным, если цвет реберных наклеек совпадает с цветом наклеек центров.</p>
+      <p>Для удобства будем ставить элементы креста по одному. Для начала ставим белый центр наверх и на кубике находим 4 ребра с белым цветом: бело-красное, бело-оранжевое, бело-синее и бело-зеленое. После этого выбираем любое, его мы и будем ставить первым. У нас может возникнуть несколько ситуаций, каждая из которых рассмотрена на картинках ниже. </p>
+      <p>Если ребро стоит в среднем слое, то просто движениями R или L' ставим их к белому центру. </p>
+      <p>Но это место может оказаться уже занято другим ребром с белым цветом, поэтому мы должны отвести его в сторону при помощи поворотов U, U' или U2 и поставить нужное нам ребро уже знакомыми поворотами R или L'. </p>
+      <p>Если же ребро окажется на верхнем или нижнем слое, то движениями F или F' ставим их в средний слой и делаем R или L', как и до этого. </p>
+      <p>Также ребро может оказаться в нижнем слое и белым цветом смотреть вниз. В таком случае ставим свободное место наверху над ним и поднимаем ребро движением F2.</p>
+      <p>Таким образом нужно поставить к белому центру все 4 ребра.</p>
+      <p>Поставив 4 ребра к своему центру, мы получим крест. Он может уже сейчас оказаться правильным, но в большинстве случаев этого не происходит, поэтому нужно эти ребра поменять между собой местами, чтобы он стал правильным.</p>
+      <p>Крутим верхний слой, пока 2 ребра не будут совпадать по цвету с центрами. Здесь может быть 2 ситуации: совпадают смежные ребра и нужно поменять местами 2 других или же совпадают противоположные ребра и нужно поменять местами оставшиеся. Оба случая рассмотрены на картинках ниже. На данном этапе нужно запомнить простой алгоритм R U R' U', называемый пиф-пафом, он еще окажется нам полезен. </p>
+    </div>
+    <div class="conteiner" id="first">
+      <div class="imag"><img src="https://speedcubing.ru/img/tutorial/3/begin/c30.png"><p><b>(R U R' U') R</b></p></div>
+      <div class="imag" id="unic"><img src="https://speedcubing.ru/img/tutorial/3/begin/cross0.png"><p><b>Правильный крест</b></p></div>
+      <div class="imag"><img src="https://speedcubing.ru/img/tutorial/3/begin/c31.png"><p><b>R U2 R' U2 R</b></p></div>
+    </div>
+    <div class="txxt">
+      <h3>Сборка первого слоя</h3>
+      <p>Находим один из четырех белых углов, находим место на нижнем слое, где этот уголок должен находиться (например, бело-красно-синий уголок должен стоят между синим и красным элементами креста), ставим найденный уголок над этим местом. Ниже рассмотрены все случаи, которые могут выпасть на данном этапе. Выполнив алгоритм, мы поставим уголок на свое место. Подобным образом ставим оставшиеся три. Обращаем ваше внимание на случаи, когда белый угол находится не на верхнем слое, а внизу.</p>
+    </div>
+    <div class="conteiner">
+      <div class="imag" id="lose"><img src="https://speedcubing.ru/img/tutorial/3/begin/f1.png"></div>
+      <div class="imag"><img src="https://speedcubing.ru/img/tutorial/3/begin/1l0.png"><p><b>Первый слой</b></p></div>
+      <div class="imag"><img src="https://speedcubing.ru/img/tutorial/3/begin/1l1.png"><p><b>Первый слой</b></p></div>
+      <div class="imag" id="lose"><img src="https://speedcubing.ru/img/tutorial/3/begin/f5.png"></div>
+    </div>
+    <div class="txxt">
+      <h3>Сборка второго слоя</h3>
+      <p>Как уже было сказано выше, находим 4 ребра без желтого цвета. Выбираем на верхнем слое одно, которое будем ставить первым, и крутим верхнюю грань до тех пор, пока одна из наклеек этого ребра не совпадет по цвету с центром. Далее получаем одну из ситуаций. Как и в предыдущем этапе, элементы могу оказаться не на верхнем слое, а ниже, эти ситуации также рассмотрены.</p>
+    </div>
+    <div class="conteiner">
+      <div class="imag"><img src="https://speedcubing.ru/img/tutorial/3/begin/s0.png"><p><b>U R U' R' F R' F' R</b></p></div>
+      <div class="imag"><img src="https://speedcubing.ru/img/tutorial/3/begin/s1.png"><p><b>U' L' U L F' L F L'</b></p></div>
+      <div class="imag"><img src="https://speedcubing.ru/img/tutorial/3/begin/s2.png"><p><b>Первая U2 Первая</b></p></div>
+      <div class="imag"><img src="https://speedcubing.ru/img/tutorial/3/begin/s3.png"><p><b>Первая и далее</b></p></div>
+    </div>
+    <div class="txxt">
+      <h3>Сборка жёлтого креста</h3>
+      <p>На этапе сборки желтого креста может быть всего лишь 3 ситуации, решив которые, мы его получим. Также нам может повезти, если желтый крест соберется сам.</p>
+    </div>
+    <div class="conteiner">
+      <div class="imag"><img src="https://speedcubing.ru/img/tutorial/3/begin/yc0.png"><p><b>F R U R' U' F'</b></p></div>
+      <div class="imag"><img src="https://speedcubing.ru/img/tutorial/3/begin/yc1.png"><p><b>F R U R' U' F'</b></p></div>
+      <div class="imag"><img src="https://speedcubing.ru/img/tutorial/3/begin/yc2.png"><p><b>Первая U2 Вторая</b></p></div>
+      <div class="imag" id="lose"><img src="https://speedcubing.ru/img/tutorial/3/begin/yc3.png"></div>
+    </div>
+    <div class="txxt">
+      <h3>Сборка жёлтой стороны</h3>
+      <p>После того, как собран желтый крест, нам может выпасть 7 ситуаций, для каждой из которых придется запомнить свой алгоритм, чтобы собрать желтую сторону.</p>
+    </div>
+    <div class="conteiner">
+      <div class="imag"><img src="https://speedcubing.ru/img/tutorial/3/begin/y0.png"><p><b>R U R' U R U2 R'</b></p></div>
+      <div class="imag"><img src="https://speedcubing.ru/img/tutorial/3/begin/y1.png"><p><b>R U2 R' U' R U' R'</b></p></div>
+      <div class="imag"><img src="https://speedcubing.ru/img/tutorial/3/begin/y2.png"><p><b>Вторая U' Первая</b></p></div>
+      <div class="imag"><img src="https://speedcubing.ru/img/tutorial/3/begin/y3.png"><p><b>Вторая U' Первая</b></p></div>
+    </div>
+    <div class="conteiner">
+      <div class="imag"><img src="https://speedcubing.ru/img/tutorial/3/begin/y4.png"><p><b>Вторая U2 Первая</b></p></div>
+      <div class="imag"><img src="https://speedcubing.ru/img/tutorial/3/begin/y5.png"><p><b>Первая x2</b></p></div>
+      <div class="imag"><img src="https://speedcubing.ru/img/tutorial/3/begin/y6.png"><p><b>Первая U' Первая</b></p></div>
+      <div class="imag" id="lose"><img src="https://speedcubing.ru/img/tutorial/3/begin/y7.png"></div>
+    </div>
+    <div class="txxt">
+      <h3>Сборка верхних углов</h3>
+      <p>Выбираем любой уголок и движениями U, U' и U2 ставим его на свое место, чтобы оба цвета угла совпали с двумя цветами на нижних слоях. В зависимости от полученной ситуации, делаем один из алгоритмов. Обращаем внимание, что они делаюся из другого положения, поэтому нужно взять кубик белым цветом к себе.</p>
+      <p>Могут возникнуть 2 дополнительные ситуации:</p>
+      <ol>
+        <li>Уголок встал на свое место, но рядом с ним на свое место встал еще один. Продолжаем крутить верхнюю грань, следя теперь за другим несобранным уголком. Он уже встанет так, как нужно в первых двух ситуациях.</li>
+        <li>Уголок встал на свое место, но по диагонали на свое место встал еще один. Берем кубик белым цветом к себе и делаем алгоритм “Глаза справа”. Выбираем любой уголок и ставим его на своё место. Теперь уже всё получится так, как нужно для первых двух ситуаций.</li>
+      </ol>
+    </div>
+      <div class="conteiner">
+      <div class="imag" id="wond"><img src="https://speedcubing.ru/img/tutorial/3/begin/u0.png"><p><b>R2 D2 R U R' D2 R U' R</b></p></div>
+      <div class="imag" id="wond"><img src="https://speedcubing.ru/img/tutorial/3/begin/u1.png"><p><b>R' U R' D2 R U' R' D2 R2</b></p>
+      </div>
+    </div>
+    <div class="txxt">
+      <h3>Расстановка верхних рёбер</h3>
+      <p>Осталось расставить ребра по своим местам. Снова ничего сложного, всего лишь 4 ситуации, для решения которых понадобится знать только один алгоритм.</p>
+    </div>
+    <div class="conteiner">
+      <div class="imag"><img src="https://speedcubing.ru/img/tutorial/3/begin/reb0.png"><p><b>R U' R U R U R U’ R’ U’ R2</b></p></div>
+      <div class="imag"><img src="https://speedcubing.ru/img/tutorial/3/begin/reb1.png"><p><b>Первая x2</b></p></div>
+      <div class="imag"><img src="https://speedcubing.ru/img/tutorial/3/begin/reb2.png"><p><b>Первая U' Первая</b></p></div>
+      <div class="imag"><img src="https://speedcubing.ru/img/tutorial/3/begin/reb3.png"><p><b>Первая U Первая</b></p></div>
+    </div>
+      <div class="txxt">
+      <h2 class="wow">Поздравляем! Вы великолепны!</h2>
+    </div>
+  </div>
+</div>
+</body>
+</html>

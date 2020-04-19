@@ -1,0 +1,142 @@
+body {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;  
+}
+table {
+width: 600px;
+height: 200px;
+margin: auto;
+text-align: center; 
+border: 1px solid;
+border-collapse: collapse;
+}
+th { 
+border: 1px solid  #919191;
+border-collapse: collapse;
+}
+td { 
+border: 1px solid  #919191;
+border-collapse: collapse;
+}
+#one {
+	display: block;
+	padding-top: 10px;
+	float: right;
+	margin-right: 50px;
+	margin-left: 50px;
+	border: 0.50px solid #3498fd;
+	height: 250px;
+	text-align: center;
+	color: #bfbfbf;
+	font-weight: normal;
+	background-color: white;
+	opacity: 1;
+	font-size: 12px;
+	border-radius: 15px;
+	width: 250px;
+}
+#two {
+	position: relative;
+	float: right;
+	margin-right: 50px;
+	margin-left: 50px;
+	bottom: 270px;
+	border: 0.50px solid #3498fd;
+	height: 305px;
+	text-align: center;
+	color: #bfbfbf;
+	font-weight: normal;
+	background-color: white;
+	opacity: 1;
+	font-size: 13px;
+	border-radius: 15px;
+	padding: 10px 10px 0px 10px;
+}
+p {
+	padding-left: 200px;
+	opacity: 0.85;
+}
+h1 {
+	position: relative;
+	top: 20px;
+	text-align: center;
+	color: #3498DB;
+}
+caption {
+font-weight: 600;
+padding-bottom: 10px;
+}
+h3 {
+	padding-left: 220px;
+	color: #3498DB;
+}
+td img {
+	position: relative;
+	height: 13px;
+	width: 20px;
+	top: 1px;
+}
+a:active {
+	color: #3498fd;
+}
+a:hover {
+	color: #3498fd;
+	text-decoration: none;
+}
+a:visited {
+	color: #3498fd;
+	text-decoration: none;
+}
+a:link {
+	color: #3498fd;
+	text-decoration: none;
+}
+div.back {
+	position: relative;
+	top: 140px;
+	border: 1px solid #3498fd;
+	border-radius: 25px;
+	background-color: white;
+	height: 75%;
+	width: 83%;
+	margin: auto;
+}
+nav.one {
+	position: fixed;
+	top: 0px;
+	z-index: 101;
+	width: 100%;
+}
+nav.one ul {
+position: relative;
+bottom: 16px; 
+  background: #D4E7EE;
+  overflow: hidden;
+  padding: 0;
+  list-style: none;
+  font-weight: bold;
+}
+nav.one li {
+  float: left;
+}
+nav.one a {
+  display: block;
+  padding: 1em;
+  border-right: 1px solid #ADC0CE;
+  background: rgba(173, 192, 206, .3);
+  color: #29838C;
+}
+nav.one a:hover {
+	background: #ADC0CE;
+}
+div.trueback {
+	position: relative;
+	bottom: -40px;
+	background-image: url(cube.png);
+	background-repeat: space;
+	background-color: #f3f3f3;
+	margin: 0;
+	height: 1105px;
+}
+
+

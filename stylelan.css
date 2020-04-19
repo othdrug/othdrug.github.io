@@ -1,0 +1,102 @@
+body {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;  
+}
+a:active {
+	color: #3498fd;
+}
+a:hover {
+	color: #3498fd;
+	text-decoration: none;
+}
+a:visited {
+	color: #3498fd;
+	text-decoration: none;
+}
+a:link {
+	color: #3498fd;
+	text-decoration: none;
+}
+div.back {
+	position: relative;
+	top: 140px;
+	border: 1px solid #3498fd;
+	border-radius: 25px;
+	background-color: white;
+	height: 85%;
+	width: 65%;
+	margin-left: 280px;
+}
+nav.one {
+	position: fixed;
+	top: 0px;
+	z-index: 101;
+	width: 100%;
+}
+nav.one ul {
+position: relative;
+bottom: 16px; 
+  background: #D4E7EE;
+  overflow: hidden;
+  padding: 0;
+  list-style: none;
+  font-weight: bold;
+}
+nav.one li {
+  float: left;
+}
+nav.one a {
+  display: block;
+  padding: 1em;
+  border-right: 1px solid #ADC0CE;
+  background: rgba(173, 192, 206, .3);
+  color: #29838C;
+}
+nav.one a:hover {
+	background: #ADC0CE;
+}
+div.trueback {
+	position: relative;
+	bottom: -40px;
+	background-image: url(cube.png);
+	background-repeat: space;
+	background-color: #f3f3f3;
+	margin: 0;
+	height: 1800px;
+}
+div.xtxt {
+	padding: 25px 15px 0px 50px;
+	width: 70%;
+	margin-bottom: 60px;
+	opacity: 0.85;
+}
+h2 {
+text-align: center;
+color: #3498DB;
+margin-top: 40px;
+}
+div.images {
+	position: relative;
+	float: right;
+	top: -620px;
+	margin-right: 70px;
+	height: 0px;
+}
+div.oimg {
+	border: 1px solid #a3d1ff;
+	border-radius: 15px;
+	padding: 10px 0px 10px 20px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+div.oimg:hover {
+	border: 1px solid #3498fd;
+	border-radius: 15px;
+	padding: 10px 0px 10px 20px;
+	width: 100%;
+}
+div.ytxt {
+	padding: 25px 40px 0px 50px;
+	margin-bottom: 60px;
+	opacity: 0.85;
+}
